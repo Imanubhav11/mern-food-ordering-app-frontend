@@ -27,4 +27,7 @@ export const cuisineList = [
     "Coffee",
     "Sushi",
     "Japanese",
+    "coffee",
+    "juices",
+    "arabic",
   ];

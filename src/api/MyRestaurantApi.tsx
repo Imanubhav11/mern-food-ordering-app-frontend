@@ -80,9 +80,8 @@ export const useCreateMyRestaurant = () => {
     export const useUpdateMyRestaurant = () => {
         const { getAccessTokenSilently } = useAuth0();
       
-        const updateRestaurantRequest = async (
-          restaurantFormData: FormData
-        ): Promise<Restaurant> => {
+        const updateRestaurantRequest = async (restaurantFormData: FormData): Promise<Restaurant> => {
+            
           const accessToken = await getAccessTokenSilently();
       
           const response = await fetch(`${API_BASE_URL}/api/my/restaurant`, {
