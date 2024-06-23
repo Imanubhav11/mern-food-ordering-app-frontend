@@ -38,7 +38,7 @@ const OrderItemCard = ({ order }: Props) => {
 
         const paddedMinutes = minutes < 10 ? `0${minutes}` : minutes;
 
-        return `${hours} : ${minutes}`;
+        return `${hours} : ${paddedMinutes}`;
 
     }
   return (
