@@ -18,7 +18,7 @@ const HomePage = () => {
     <div className='flex flex-col gap-12'>
         <div className='md:px-32  bg-white rounded-lg shadow-md py-8 flex flex-col gap-5 text-center -mt-16'>
             <h1 className='text-5xl font-bold tracking-tight text-orange-600'>
-                Tuck into a Takeaway
+                Takeaway!
             </h1>
             <span className='text-xl'>Your food is just a click away!</span>
             <SearchBar placeHolder='Search by City or Dish name' onSubmit={handleSearchSubmit}/>
@@ -30,7 +30,7 @@ const HomePage = () => {
                     Order Takeaway faster than ever!
                 </span>
                 <span>
-                    Download the MernEats App for faster ordering and persionalised recommendations 
+                    Download the OrderNEat App for faster ordering and persionalised recommendations 
                 </span>
                 <img src = {appDownloadImage} />
             </div>
